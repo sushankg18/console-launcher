@@ -1,0 +1,342 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background: url(backround.jpg);
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+/*UPSIDE NAVBAR STARTS*/
+
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 3%;
+    z-index: 99;
+    vertical-align: middle;
+    
+}
+.launcher{
+    color: red;
+}
+.search-div{
+    position: relative;
+    width: 350px;
+    height: 42px;
+    padding: 0px 10px;
+    border-radius: 50px ;
+    border: 1px solid #42404e;
+}
+#search{
+    border: none;
+    height: 100%;
+    width: 90%;
+    background: transparent;
+    padding: 0px 5px;
+    color: white;
+}
+#search:focus{
+    outline: none;
+    color: white;
+}
+
+.download-btn{
+    font-weight: bold;
+    background-color: rgb(170, 55, 55);
+    border-radius: 8px;
+    padding: 6px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.download-btn:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.2s);
+    transition: .6s;
+}
+
+/*NAVBAR STARTS*/
+.navbar{
+   padding: 10px;	
+}
+
+h2{
+    
+    color: white;
+    font-weight:bold;
+}
+
+.navbar-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 2%;
+
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style-type: none;
+    padding: 0px 30px;
+    cursor: pointer;
+}
+.navbar ul li a{
+    padding-left: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+}
+.navbar ul li a:hover,.navbar ul li a:active{
+    color: red;
+}
+
+
+
+
+/* MIDDLE SECTION START*/
+.middle-section{
+    display: flex;
+    padding-top: 2%;
+    padding-left: 100px;
+}
+.fifa-23{
+    width: 1000px;
+}
+.deal{
+    color: white;
+    font-size: 50px;
+    
+}
+.middle-right{
+    padding-left: 30px;
+}
+.fifa-logo{
+    width: 250px;
+    padding-top: 120px;
+}
+.category{
+    color: white;
+    border-radius: 5px;
+    background-color:rgb(75, 83, 92);
+    width: 50px;
+    padding: 3px;
+    padding-left: 6px;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 80px;
+    margin-bottom: 5px;
+}
+.rate{
+    color: white;
+    font-size: 20px;
+}
+.add-wishlist-btn{
+    background-color: skyblue;
+    padding: 5px 34px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px ;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.buy-now-btn{
+    background-color: white;
+    padding: 5px 49px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px ;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+
+
+
+/* SUMMER DEALS */
+.summer-deal-section{
+    padding-top: 2%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.summer-title{
+    color: white;
+}
+.summer-games{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+img{
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy{
+    background-color: skyblue;
+    border: none;
+    font-weight: bold;
+    padding: 3px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.add-cart{
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    padding: 3px 10px;
+    font-size: 14px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h4{
+    color: white;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+p{
+    color: white;
+    margin-bottom: 5px;
+}
+/*  FREE GAMES SECTION STARTS*/
+
+.free-games-section{
+    padding-top: 2%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.free-games{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: center;
+}
+.left-one{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.left-one:hover,.free-right:hover{
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+.hunter-image{
+    width: 55px;
+    cursor: pointer;
+}
+.pp{
+    margin-left: 40px;
+}
+.indi-one{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.right-one{
+    margin-bottom:20px ;
+    cursor: pointer;
+}
+.free-right{
+    cursor: pointer;
+}
+
+
+
+/*   BROWSE CATEGORY SECTION STARTS  */
+
+.browse-category-section{
+    padding-top: 2%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+.category-div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.storyline-image{
+    background-color: aliceblue;
+    width: 270px;
+}
+.storyline,.open-world,.racing,.survival{
+    cursor: pointer;
+}
+.storyline:hover,.open-world:hover,.racing:hover,.survival:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+i:hover{
+    transform: scale(1.2);
+    transition: 0.7s;
+}
+
+
+
+
+/* BOTTOM AREA STARTS */
+.bottom-area{
+    padding-top: 5%;
+    padding-left: 120px;
+    padding-right: 100px;
+    padding-bottom: 30px;    
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    word-spacing: 20px;
+    cursor: pointer;
+}
+.copyright-area{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.suggestion-help{
+    padding-top: 5%;
+    padding-left: 120px;
+    padding-right: 100px;
+    padding-bottom: 50px;    
+    display: flex;
+    justify-content: space-between;
+}
+.suggestion-box{
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.suggestion-box:focus{
+    outline: none;
+}
+#submit{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 16px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
